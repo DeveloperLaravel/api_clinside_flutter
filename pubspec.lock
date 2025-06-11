@@ -82,7 +82,7 @@ packages:
     source: hosted
     version: "2.4.4"
   build_runner:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: build_runner
       sha256: "058fe9dce1de7d69c4b84fada934df3e0153dd000758c4d65964d0166779aa99"
@@ -273,7 +273,7 @@ packages:
     source: sdk
     version: "0.0.0"
   freezed:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: freezed
       sha256: "6022db4c7bfa626841b2a10f34dd1e1b68e8f8f9650db6112dcdeeca45ca793c"
@@ -369,7 +369,7 @@ packages:
     source: hosted
     version: "4.9.0"
   json_serializable:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: json_serializable
       sha256: c50ef5fc083d5b5e12eef489503ba3bf5ccc899e487d691584699b4bdefeea8c
@@ -400,6 +400,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.1"
+  lint:
+    dependency: "direct main"
+    description:
+      name: lint
+      sha256: "3cd03646de313481336500ba02eb34d07c590535525f154aae7fda7362aa07a9"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.8.0"
   lints:
     dependency: transitive
     description:
