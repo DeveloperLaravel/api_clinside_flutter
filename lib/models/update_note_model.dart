@@ -1,8 +1,8 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-part 'update_node_model.freezed.dart';
+part 'update_note_model.freezed.dart';
 
-part 'update_node_model.g.dart';
+part 'update_note_model.g.dart';
 
 @freezed
 abstract class UpdateNoteModel with _$UpdateNoteModel {

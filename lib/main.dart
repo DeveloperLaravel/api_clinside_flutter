@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Note App',
       theme: ThemeData(primarySwatch: Colors.blue),
-      darkTheme: ThemeData.dark(),
+      // darkTheme: ThemeData.dark(),
       initialRoute: '/',
       routes: {
         HomeScreen.routeName: (_) => const HomeScreen(),
