@@ -1,6 +1,5 @@
+import 'package:api_clinside_php/screens/home/models/note_model.dart';
 import 'package:flutter/material.dart';
-
-import 'package:api_clinside_php/models/note_model.dart';
 
 class NoteGrid extends StatelessWidget {
   const NoteGrid({Key? key, required this.notes}) : super(key: key);

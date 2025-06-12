@@ -1,4 +1,4 @@
-import 'package:api_clinside_php/screens/add_note/add_note_screen.dart';
+import 'package:api_clinside_php/screens/home/add_note/add_note_screen.dart';
 import 'package:api_clinside_php/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
 
