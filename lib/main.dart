@@ -1,5 +1,5 @@
-import 'package:api_clinside_php/screens/home/add_note/add_note_screen.dart';
 import 'package:api_clinside_php/screens/home/home_screen.dart';
+import 'package:api_clinside_php/screens/lista/lista_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,10 +17,10 @@ class MyApp extends StatelessWidget {
       title: 'Note App',
       theme: ThemeData(primarySwatch: Colors.blue),
       // darkTheme: ThemeData.dark(),
-      initialRoute: '/',
+      initialRoute: '/listaScreen',
       routes: {
+        ListaScreen.routeName: (_) => const ListaScreen(),
         HomeScreen.routeName: (_) => const HomeScreen(),
-        AddNoteScreen.routeName: (_) => const AddNoteScreen(),
       },
     );
   }
